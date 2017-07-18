@@ -20,5 +20,6 @@ while True:
 	for i in ["/","-","|","\\","|"]:
 		print "%s\r" % i,
 
-		# the last comma after printing is making the output override
+		# the "\r" is resetting the seek to the same linkes start
+		# and the output override on itself
 		# the previous print. 

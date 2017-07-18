@@ -1,0 +1,60 @@
+#order of all the keyword used
+print 
+operators for numbers
+= #equals for any same object type.
++ #works for strings too
+-
+/
+*
+% # modulo remainder when divided by
+float() # function used for typecasting
+variables
+%s # for variable type string inside string
+%r # for variable type any inside string
+   ## does not do any kind of interpretation of the data in %r
+%d # for variable type int
+formatter = "%r %r %r %r"  # think of it like function which takes 4 variables
+print formatter % (a,b,c,d) # using that formatter function
+round() #used for rounding off float number 
+/n #newline or linebreak
+	/t #tab
+\ escape charater for '\' use \\
+for 
+while 
+in
+[] array
+{} set 
+	##'\r' resets the seek for terminal to the start of that line.
+raw_input("str") #takes input as is without any interpretation
+input("str") #takes input with interpretation
+from 
+sys : module 
+import 
+
+argv : code which takes input from terminal
+
+open("str",'mode') # opens file of name "str"
+'mode' 'r'--default 'w' write only cant read
+	   'r+' read and write #cannot create file
+	    'w+' read and write  # will create file
+open("str") is of type file 
+file.read()
+file.close() # commit the code to the harddisk 
+			 # if u dont use close it may not go to harddisk some times.
+open("str").read() will auto close the file 
+open("str","w+").write() will also auto close
+file.write("str") # writes the string into the file with string 
+			      # interpretation for new line /n and /t etc.
+file.truncate() #empties the file data
+file.seek(n) # sets the seek after the nth byte of the file.
+             # read sets the seek to the end
+             # readline() sets it to the end of that line
+file.tell() #tells us the current position of the seek byte wise
+
+ 
+
+def function:
+	#indundation is important this defines the scope of the variables 
+	#and functions.
+def f(*args):
+	arg1,arg2 = args # similar to argv
