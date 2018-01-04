@@ -36,3 +36,9 @@ son = Child()
 son.implicit()
 son.override()
 son.altered()
+
+
+son.other.altered()
+son.other.override()
+# but u still can access override of the other from outside class
+# privacy issues?
